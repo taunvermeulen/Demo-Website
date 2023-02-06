@@ -1,0 +1,198 @@
+/*body*/
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+/*Classes*/
+
+.features-container {
+  padding: 5%;
+  z-index: +1;
+}
+
+.features-p {
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.nav-container {
+  padding: 3% 15% 7%;
+
+}
+
+.check-circle {
+  align-items: center;
+}
+
+.inside-features {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.features-icon {
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+  color: #E97777;
+}
+
+.features-icon:hover {
+  color: #97DECE;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.card-body {
+  background-color: #FAF8F1;
+}
+
+.card-header {
+  background-color: black;
+  color: #fff;
+}
+
+/*ID*/
+#title {
+  background-color: #0A2647;
+  color: #fff;
+
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #FAF8F1;
+
+}
+
+#testimonials { 
+  text-align: center;
+  background-color: #d3a200;
+  color: #fff;
+}
+
+#press {
+  background-color: #d3a200;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #FAF8F1;
+}
+
+#cta {
+  text-align: center;
+  display: flex;
+  background-color: #0A2647;
+}
+
+#footer {
+  background-color: black;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Image */
+
+.iphone-img {
+  border-radius: 3px;
+  position: absolute;
+  width: 20%;
+  transform: rotate(25deg);
+  right: 23%;
+}
+
+@media (max-width: 990px) {
+  .iphone-img {
+    position: static;
+    width: 50%;
+    transform: rotate(0deg);
+
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.motto {
+  display: flex;
+  margin: 25px auto;
+  color: #fff;
+}
+
+.copyright {
+  margin: 10px auto;
+}
